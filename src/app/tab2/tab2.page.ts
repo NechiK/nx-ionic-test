@@ -10,13 +10,11 @@ import { ExploreContainerComponent } from '../explore-container/explore-containe
   imports: [IonIcon, IonFabButton, IonFab, IonHeader, IonToolbar, IonTitle, IonContent, ExploreContainerComponent]
 })
 export class Tab2Page {
-
   constructor() {}
 
   addPhotoToGallery() {
     const a = 10;
-    const b = a + 2;
-
+    const b = a + 3;
     console.log(b);
   }
 
